@@ -1,7 +1,9 @@
 # Python program to check if the number is an Armstrong number or not
 
 # take input from the user
-num = int(input("Enter a number: "))
+num = list(map(int, input("Enter a multiple value: ").split()))
+
+
 
 # initialize sum
 sum = 0
