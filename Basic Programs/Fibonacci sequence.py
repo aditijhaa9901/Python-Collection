@@ -1,5 +1,6 @@
-nterms = int(input("How many terms you want? "))  
-# first two terms  
+nterms = list(map(int, input("Enter a multiple value: ").split())) 
+
+  
 n1 = 0  
 n2 = 1  
 count = 2  
